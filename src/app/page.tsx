@@ -1,7 +1,19 @@
-import React from "react";
+import Hero from "./components/Hero";
+import AboutSection from "./components/AboutSection";
+import AgroforestrySection from "./components/AgroforestrySection";
+import NurserySection from "./components/NurserySection";
+import ProjectsSection from "./components/ProjectsSection";
+import ContactSection from "./components/ContactSection";
 
-function page() {
-  return <div>page</div>;
+export default function Home() {
+  return (
+    <div>
+      <Hero />
+      <AboutSection />
+      <AgroforestrySection />
+      <NurserySection />
+      <ProjectsSection />
+      <ContactSection />
+    </div>
+  );
 }
-
-export default page;

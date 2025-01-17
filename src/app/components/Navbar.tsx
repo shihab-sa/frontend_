@@ -2,25 +2,37 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="bg-green-800 text-white p-4">
-      <ul className="flex space-x-4">
+    <nav className="bg-green-800 text-white p-4 fixed top-0 w-full z-50">
+      <ul className="flex justify-center space-x-8">
         <li>
-          <Link href="/">Home</Link>
+          <Link href="#hero" scroll={true}>
+            Home
+          </Link>
         </li>
         <li>
-          <Link href="/about">Over Ons</Link>
+          <Link href="#about" scroll={true}>
+            About Us
+          </Link>
         </li>
         <li>
-          <Link href="/agroforestry">Agroforestry</Link>
+          <Link href="#agroforestry" scroll={true}>
+            Agroforestry
+          </Link>
         </li>
         <li>
-          <Link href="/nursery">De Kwekerij</Link>
+          <Link href="#nursery" scroll={true}>
+            Nursery
+          </Link>
         </li>
         <li>
-          <Link href="/projects">Projecten & Foto's</Link>
+          <Link href="#projects" scroll={true}>
+            Projects
+          </Link>
         </li>
         <li>
-          <Link href="/contact">Contact</Link>
+          <Link href="#contact" scroll={true}>
+            Contact
+          </Link>
         </li>
       </ul>
     </nav>

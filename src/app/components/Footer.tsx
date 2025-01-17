@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <footer className="bg-green-900 text-white p-4 text-center">
-      © 2025 Jade ReForestry
+    <footer className="p-4 bg-green-800 text-white text-center">
+      © 2025 Jade ReForestry - All Rights Reserved
     </footer>
   );
 }
