@@ -11,6 +11,13 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        cream: "#F0ECE3",
+        "dark-green": "#133216",
+        "footer-bg-color": "#77892B",
+      },
+
+      fontFamily: {
+        bangla: ["var(--font-tiro-bangla)", "serif"], // Reference the custom variable
       },
     },
   },
